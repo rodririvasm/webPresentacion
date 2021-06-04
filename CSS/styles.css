@@ -136,7 +136,7 @@ h1,h2,h3{
 }
 
 
-@media (min-width: 480px) {
+@media (min-width: 200px) {
     .boton{
         width:auto;
     }
