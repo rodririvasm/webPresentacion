@@ -16,7 +16,7 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
     /*en el touch l bajas y te ubica en lo pirncipal medio y baja*/
-    scroll-snap-type: y proximity;
+   /* scroll-snap-type: y proximity;*/
 
 }
 
