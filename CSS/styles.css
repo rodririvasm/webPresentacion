@@ -16,7 +16,7 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
     /*en el touch l bajas y te ubica en lo pirncipal medio y baja*/
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
 
 }
 
@@ -136,7 +136,7 @@ h1,h2,h3{
 }
 
 
-@media (min-width: 200px) {
+@media (min-width: 480px) {
     .boton{
         width:auto;
     }
@@ -164,7 +164,7 @@ h1,h2,h3{
     scroll-snap-stop: always;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 480px) {
     .servicios{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr; /*oh 33.3% 33.3% 33.3%*/
